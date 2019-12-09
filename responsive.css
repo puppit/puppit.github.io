@@ -1,0 +1,73 @@
+body{
+/* font-size: 0.3em;*/
+}
+.description{
+font-size: 1.3em;
+}
+.container{
+  padding: 0.5em 2em;
+}
+.banner .header{
+  font-size: 3.2em;
+  margin-top: 1em;
+}
+
+#schoolBuildingPic,
+#cleaningBrigadePic,
+#myFriendJoePic{
+  margin-top: 0px !important; 
+  margin-bottom: 0px !important;
+}
+
+.navbar{
+background-color: #000;
+}
+
+.dropdown-menu>li>a:hover{
+font-weight: 700;
+color: #FFFFFF;
+}
+.jumbotron{
+	height: 150px;
+  background-size: cover;
+}
+
+.support .caption{
+padding: 2em 2em; 
+font-size: x-small;
+}
+
+.shop-item img{
+  width: 200px;
+  height: auto;
+}
+
+.shop-item h4{
+  font-size: small;
+}
+
+.thanks .header{
+  font-size: 10em;
+  justify-content: center;
+  align-content: center;
+  color: rgba(0,0,0,0.7);
+}
+
+@media (max-width: 768px){
+.shop-item img{
+  width: 170px;   
+  height: 70;
+}
+
+@media (max-width: 425px){
+.shop-item img{
+  width: 130px;
+  height: auto;
+}
+
+.shop-item h4{
+  font-weight: 700;
+}
+
+
+}

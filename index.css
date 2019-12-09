@@ -3,9 +3,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
-color: #5a5a5a;
+font-weight: 500;
 font-family: 'Raleway', sans-serif;
 overflow-x: hidden;
+opacity: 0.7;
 }
 
 .container{
@@ -14,21 +15,12 @@ padding: 2em 3em;
 
 .header{
 font-family: "Amatic SC";
-color: #D2691E;
+color: #000000;
 font-weight: bolder;
 font-size: 3.2em;
 margin-bottom: 0.2em;
-text-transform: uppercase;
 }
 
-.thumbnail-layout{
-background-size: cover;
-background-position: center;
-margin: 1.3em;
-padding: 0.6em 0;
-border-radius: 0.3em;
-margin-bottom: 5em;
-}
 
 .btn-unstop{
 background-color: rgba(210,105,30,0.5);
@@ -68,7 +60,11 @@ vertical-align: middle;
 }
 
 .jumbotron{
+background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px);background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px);
 background-position: center;
+background-size: cover;
+color: #000000;
+height: 250px;
 }
 
 
@@ -89,7 +85,7 @@ padding-left: 0;
 width: 100%;
 }
 .navbarHead{
-background-color: rgba(0,0,0,0.4);
+background-color: rgba(256,256,256);
 border: none;
 }
 .navbar-right{
@@ -102,6 +98,9 @@ margin: 3px 3px;
 a.navbar-brand{
 padding: 0px;
 }
+.navbar-default .navbar-brand{
+color: #000;
+}
 /* navbar toggle button (bars) --------------------------------------------------------------------*/
 .navbar-default .navbar-toggle{
 border: none;
@@ -110,12 +109,12 @@ border: none;
 background-color: rgba(0,0,0,0.4);;
 }
 .navbar-default .navbar-nav>li>a{
-color: #FFFFFF;
+color: #000000;
 text-transform: uppercase; 
 }
 .navbar-default .navbar-nav>li>a:hover{
 font-weight: 700;
-color: #FFFFFF;
+color: #000;
 }
 
 /*dropdown menu structure*/
@@ -127,19 +126,19 @@ padding: 0px;
 
 /*dropdown menu list*/
 .dropdown-menu>li>a{
-color: #FFFFFF;
+color: #000000;
 background-color: rgba(0,0,0,0.2);
 } 
 .dropdown-menu>li>a:hover{
 font-weight: 700;
-color: #FFFFFF;
+color: #000000;
 background-color: rgba(0,0,0,0.7);
 }
 
 .navbar.navbar-default .navbar-nav li.dropdown>.dropdown-toggle{
 font-weight: 100;
 background-color: transparent;
-color: #FFF;
+color: #000;
 }
 
 
@@ -222,14 +221,6 @@ margin-bottom: 5px;
 
 .banner h1{
 margin-top: 1.5em;
-text-transform: uppercase;
-}
-
-.jumbotron{
-opacity: 0.7;
-background-size: cover;
-color: #000000;
-height: 250px;
 }
 
 .date{
@@ -259,141 +250,7 @@ font-weight: bold;
 padding: 0em 2em;
 }*/
 
-/*------------------support-us WAYS */
-.donate{
-background-image: url(../../images/donate.jpg);
-}
-.regular-donation{
-background-image: url(../../images/powers.jpg);
-}
-.shop-for-kids{
-background-image: url(../../images/shop-for-kids.jpg);
-}
-.shop-item h4{
-font-weight: 700;
-}
-.shop-item img{
-width: 170px;
-height: 100px;
-margin: 0px 40px;
-}
-.shop-item input{
-margin: 25px 80px 0px;
-}
-.fundraise{
-background-image: url(../../images/fundraise.jpg);
-}
-.fundraise-item{
-margin-bottom: 1em;
-border-radius: 0.5em;
-padding: 1.6em 2em;
-color: #7C7575; 
-} 
-.fundraise-item h4{
-display: flex;
-justify-content: center;
-font-weight: 500;
-font-size: 1.5em;
-margin-bottom: 1em;
-}
-.fundraise-item .fa-4x{
-display: flex;
-justify-content: center;
-}
-
-.fundraise-item:hover{
-background-color: rgba(210,105,30,0.5);
-color: rgb(255, 255, 255); 
-} 
-
-#fundraising a{
-text-decoration: none;
-}
-
-#fundraising .description{
-font-size: 1em;
-line-height: 3em;
-}
-
-.fundraising-expanded{
-padding-bottom: .7em;
-font-size: 1em;
-}
-
-.fundraising-expanded h3{
-font-size: 2em;
-}
-
-.fundraising-expanded h3{
-font-size: 2em;
-}
-/*---------------------------------------------------PROJECTS content*/
-.jumbo-projects{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/what_we_do_header.jpg);
-}
-
-.problems-item .header{
-color: #5a5a5a;
-text-decoration: underline;
-font-size: 2.2em;  
-}
-
-.description{
-line-height: 1.7em;
-font-size: 18px;
-margin: 1.3em auto;
-}
-
-.description a{
-color: rgba(210,105,30,.7);
-}
-
-/*---------------------------------------------------IMPACT content*/
-.jumbo-impact{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/impact.jpg);
-}
-
-.success-stories{
-background-image: url(../../images/success.jpg);
-}
-
-.volunteer-stories{
-background-image: url(../../images/powers2.jpg);
-}
-
-/*---------------------------------------------------VOLUNTEER content*/
-.jumbo-careers{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/childs4.jpg); 
-}
-.careers .thumbnail .header{
-color: rgba(255,255,255,.7);
-display: flex;
-background-color: rgba(210,105,30,0.5);
-padding: 0.2em;
-border-radius: 0.2em;
-justify-content: center;
-}
-.volunteer-mail:hover{
-color: orange;
-}
-.careers .thumbnail p{
-  text-align: center;
-}
-
-.careers a{
-text-decoration: none;
-}
-
-/*---------------------------------------------------TEAM content*/
-.jumbo-team{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/meet_the_team_s.jpg); 
-}
-
-
-/*---------------------------------------------------GALLERY content*/
-.jumbo-gallery{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/games.jpg); 
-}
+/
 
 .gallery{
   background-color: rgba(255,245,230,1);
@@ -414,13 +271,9 @@ object-fit:cover;
 }
 
 /*---------------------------------------------------CONTACT content*/
-.jumbo-contact{
-background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,0.3)), url(../../images/headers/contact_s.jpg);
-}
 
-i+h1{
+i+h4{
 display: inline-block;
-font-size: 1em
 }
 .contact-item{
 margin: 1em 1.5em;
@@ -444,71 +297,13 @@ color: rgba(210,105,30);
 text-decoration: none;
 }
 
-.contact-item .caption{
-font-size: 1.3em;
-position: relative;
-top: 3.5rem;
-left: -5.9rem;
-}
 
-.contact-item .icon{
-font-size: 4em;
-position: relative;
-top: -.5rem;
-left: 9rem;
-}
-
-.social-media  a{ /*check thaaaaat!!! all a being selected*/
-display: inline-block;
-list-style: none;
-text-decoration: none;
-color: rgb(210,105,30);
-}
-
-.social-media a:hover{
-color: rgba(210,105,30, 0.5);
-}
-
-/*---------------------------------------------------POWERS content*/
-.jumbo-powers{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/powers2.jpg);
-}
-
-.powers li{
-list-style: none;
-font-size: 2em;
-}
-
-.powers{
-margin-bottom: 2.5em;
-margin-top: -3em;
-}
-
-/*---------------------------------------------------MASK content*/
-.jumbo-mask{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../../images/headers/putonmask.jpg);
-}
-
-/*THANKS
---------------------------*/
-
-.thanks .header{
-  font-size: 21em;
-  display: block;
-  margin: 0 0.5em;
-  color: rgba(255,255,255,0.7);
-}
-.thanks{
-  background-image: url(../../images/headers/childs2.jpg);
-  background-size: cover;
-  height: 50em;
-  padding-bottom: 0px;
 }
 /* FOOTER 
 ------------------------ */
 .cw-footer {
-background-color: rgba(210,105,30,0.5);
-padding-top: 4em;
+background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px);background-image: repeating-linear-gradient(-25deg, #fff, #fff 20px, #df5646 20px, #df5646 40px, #fff 40px, #fff 60px, #1c78a4 60px, #1c78a4 80px);padding-top: 4em;
+color: #000000;
 }
 
 .cw-footer-top-row ul li{
@@ -521,18 +316,19 @@ font-weight: 800;
 
 .cw-footer-top-row a,
 .cw-footer-social-row a{
-color: rgba(255,255,255,.7);
 font-weight: 500;
 text-decoration: none;
+color: #000000;
 }
 
 .cw-footer-bottom-row p, a{
-color: #5a5a5a;
+color: #000;
+font-size: 1em;
 }
 
 .cw-footer-bottom-row a:hover{
 text-decoration: none;
-color: rgba(90,90,90,.7)
+color: rgba(90,90,90)
 }
 /* RESPONSIVE CSS
 -------------------------------------------------- */
